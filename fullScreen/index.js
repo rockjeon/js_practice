@@ -11,7 +11,7 @@ function myRequestFullScreen(element) {
         element.webkitRequestFullScreen()
     } else if (element.mozRequestScreen) {
         element.mozRequestFullScreen()
-    } else if (element.msRequestFullScreen) {
+    } else if (element.msRequestFullScreen) {1
         element.msRequestFullScreen()
     }
 } 
